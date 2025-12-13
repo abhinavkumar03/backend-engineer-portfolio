@@ -18,46 +18,195 @@
     },
     "skills": [
         {
-            "category": "Backend Engineering",
+            "category": "Go & Python Core",
+            "icon": "Code2",
             "items": [
-                "Java (OOP)",
-                "Spring Boot",
-                "Spring MVC",
-                "Hibernate/JPA",
-                "REST APIs",
-                "Microservices"
+                {
+                    "name": "Go (Golang)",
+                    "icon": "Code2"
+                },
+                {
+                    "name": "Goroutines & Channels",
+                    "icon": "Cpu"
+                },
+                {
+                    "name": "Context & Cancellation",
+                    "icon": "Activity"
+                },
+                {
+                    "name": "Go Profiling (pprof)",
+                    "icon": "Activity"
+                },
+                {
+                    "name": "gRPC & Protobuf",
+                    "icon": "MessageSquare"
+                },
+                {
+                    "name": "Python 3.10+",
+                    "icon": "Code2"
+                },
+                {
+                    "name": "Asyncio & Async APIs",
+                    "icon": "Cpu"
+                },
+                {
+                    "name": "Type Hints & mypy",
+                    "icon": "CheckCircle"
+                },
+                {
+                    "name": "FastAPI",
+                    "icon": "Server"
+                }
             ]
         },
         {
-            "category": "Databases & Caching",
+            "category": "Backend Architecture",
+            "icon": "Layers",
             "items": [
-                "MySQL",
-                "MongoDB",
-                "Redis",
-                "PostgreSQL",
-                "Query Optimization",
-                "Data Modeling"
+                {
+                    "name": "REST API Design",
+                    "icon": "GitBranch"
+                },
+                {
+                    "name": "JWT / OAuth2",
+                    "icon": "Shield"
+                },
+                {
+                    "name": "Pagination & Filtering",
+                    "icon": "List"
+                },
+                {
+                    "name": "Rate Limiting",
+                    "icon": "Gauge"
+                },
+                {
+                    "name": "Microservices",
+                    "icon": "Boxes"
+                },
+                {
+                    "name": "Event-Driven Architecture",
+                    "icon": "Activity"
+                },
+                {
+                    "name": "Circuit Breakers",
+                    "icon": "Zap"
+                }
             ]
         },
         {
-            "category": "Cloud & Infrastructure",
+            "category": "Databases & Streaming",
+            "icon": "Database",
             "items": [
-                "AWS (EC2, S3, RDS)",
-                "Docker",
-                "Kubernetes",
-                "Linux",
-                "CI/CD",
-                "GitHub Actions"
+                {
+                    "name": "PostgreSQL",
+                    "icon": "Database"
+                },
+                {
+                    "name": "Query Optimization",
+                    "icon": "Cpu"
+                },
+                {
+                    "name": "Transactions & Isolation",
+                    "icon": "Layers"
+                },
+                {
+                    "name": "Redis (Caching)",
+                    "icon": "Activity"
+                },
+                {
+                    "name": "MongoDB",
+                    "icon": "Database"
+                },
+                {
+                    "name": "Apache Kafka",
+                    "icon": "MessageSquare"
+                },
+                {
+                    "name": "Elasticsearch",
+                    "icon": "Search"
+                }
             ]
         },
         {
-            "category": "Systems & Messaging",
+            "category": "Cloud & DevOps",
+            "icon": "Cloud",
             "items": [
-                "Apache Kafka",
-                "WebSockets",
-                "Distributed Systems",
-                "System Design",
-                "Event-Driven Arch"
+                {
+                    "name": "AWS (EC2, S3, RDS)",
+                    "icon": "Cloud"
+                },
+                {
+                    "name": "Docker",
+                    "icon": "Container"
+                },
+                {
+                    "name": "Kubernetes",
+                    "icon": "Cpu"
+                },
+                {
+                    "name": "Terraform",
+                    "icon": "Wrench"
+                },
+                {
+                    "name": "CI/CD (GitHub Actions)",
+                    "icon": "GitBranch"
+                },
+                {
+                    "name": "Linux",
+                    "icon": "Terminal"
+                }
+            ]
+        },
+        {
+            "category": "Observability & SRE",
+            "icon": "Activity",
+            "items": [
+                {
+                    "name": "Prometheus",
+                    "icon": "Activity"
+                },
+                {
+                    "name": "Grafana",
+                    "icon": "BarChart"
+                },
+                {
+                    "name": "OpenTelemetry",
+                    "icon": "Radar"
+                },
+                {
+                    "name": "Structured Logging",
+                    "icon": "FileText"
+                },
+                {
+                    "name": "SLIs / SLOs",
+                    "icon": "Gauge"
+                }
+            ]
+        },
+        {
+            "category": "System Design & Security",
+            "icon": "Shield",
+            "items": [
+                {
+                    "name": "Scalability & Load Balancing",
+                    "icon": "TrendingUp"
+                },
+                {
+                    "name": "Caching Strategies",
+                    "icon": "Zap"
+                },
+                {
+                    "name": "Graceful Shutdowns",
+                    "icon": "Power"
+                },
+                {
+                    "name": "OWASP Top 10",
+                    "icon": "ShieldAlert"
+                },
+                {
+                    "name": "RBAC & API Security",
+                    "icon": "Lock"
+                }
             ]
         }
     ],
