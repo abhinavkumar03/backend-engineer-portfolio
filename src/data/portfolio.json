@@ -1,0 +1,172 @@
+{
+    "personal": {
+        "name": "Abhinav Kumar",
+        "role": "Backend Software Engineer",
+        "email": "ak2711474@gmail.com",
+        "location": "Gurgaon, India",
+        "resumeUrl": "/resume.pdf",
+        "social": {
+            "github": "https://github.com/ak2711474",
+            "linkedin": "https://linkedin.com/in/abhinav-kumar-2711474"
+        }
+    },
+    "hero": {
+        "headline": "Backend Software Engineer",
+        "subtext": "I build scalable backend systems, APIs, and distributed services with Java & Spring Boot — optimized for performance, reliability, and real-world scale.",
+        "ctaPrimary": "View Projects",
+        "ctaSecondary": "Download Resume"
+    },
+    "skills": [
+        {
+            "category": "Backend Engineering",
+            "items": [
+                "Java (OOP)",
+                "Spring Boot",
+                "Spring MVC",
+                "Hibernate/JPA",
+                "REST APIs",
+                "Microservices"
+            ]
+        },
+        {
+            "category": "Databases & Caching",
+            "items": [
+                "MySQL",
+                "MongoDB",
+                "Redis",
+                "PostgreSQL",
+                "Query Optimization",
+                "Data Modeling"
+            ]
+        },
+        {
+            "category": "Cloud & Infrastructure",
+            "items": [
+                "AWS (EC2, S3, RDS)",
+                "Docker",
+                "Kubernetes",
+                "Linux",
+                "CI/CD",
+                "GitHub Actions"
+            ]
+        },
+        {
+            "category": "Systems & Messaging",
+            "items": [
+                "Apache Kafka",
+                "WebSockets",
+                "Distributed Systems",
+                "System Design",
+                "Event-Driven Arch"
+            ]
+        }
+    ],
+    "experience": [
+        {
+            "company": "Collegedunia",
+            "role": "Software Developer 1",
+            "period": "Sep 2024 – Present",
+            "location": "Gurgaon, India",
+            "description": [
+                "Owned a greenfield Spring Boot MVC CRM replacing Zoho, saving licensing costs and enabling 200+ internal users.",
+                "Optimized MySQL queries and indexes to achieve p95 < 150ms on core workflows.",
+                "Implemented Redis caching strategy, reducing ad-asset retrieval p95 by 60%.",
+                "Integrated GitHub Actions CI and Docker for automated releases and rollbacks."
+            ],
+            "tech": [
+                "Java",
+                "Spring Boot",
+                "MySQL",
+                "Redis",
+                "Docker",
+                "AWS"
+            ]
+        },
+        {
+            "company": "Pinsout Innovation",
+            "role": "Backend Developer",
+            "period": "Jan 2024 – July 2024",
+            "location": "Noida, India",
+            "description": [
+                "Built Spring Boot microservices processing 10k+ daily records with validation and deduplication.",
+                "Hardened services with idempotency keys and retry mechanisms, stabilizing SLAs.",
+                "Mentored interns on Java OOP and DTO/entity mapping best practices."
+            ],
+            "tech": [
+                "Java",
+                "Spring Boot",
+                "MongoDB",
+                "Microservices"
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "title": "Real-Time Chat Application",
+            "description": "Architected a multi-room chat system with < 300ms latency using WebSocket pub/sub. Implemented back-pressure controls and message durability.",
+            "tech": [
+                "Spring Boot",
+                "WebSocket",
+                "Redis",
+                "MongoDB",
+                "Docker"
+            ],
+            "stats": [
+                "< 300ms Latency",
+                "Pub/Sub Architecture",
+                "Dockerized"
+            ],
+            "links": {
+                "github": "https://github.com/ak2711474",
+                "demo": "#"
+            },
+            "featured": true
+        },
+        {
+            "title": "CRM Automation System",
+            "description": "Replaced vendor CRM with a custom Spring MVC solution. Modeled normalized schemas and optimized heavy lookups with Redis caching.",
+            "tech": [
+                "Spring Boot",
+                "MySQL",
+                "Hibernate",
+                "Redis",
+                "AWS"
+            ],
+            "stats": [
+                "p95 < 150ms",
+                "Cost Reduction",
+                "RBAC"
+            ],
+            "links": {
+                "github": "https://github.com/ak2711474",
+                "demo": "#"
+            },
+            "featured": false
+        },
+        {
+            "title": "Trendy E-commerce Platform",
+            "description": "Full-stack e-commerce solution with auth, cart, and Stripe payments. Optimized database queries and implemented lazy loading for performance.",
+            "tech": [
+                "React.js",
+                "Node.js",
+                "MongoDB",
+                "Express"
+            ],
+            "stats": [
+                "Stripe Integration",
+                "Admin Dashboard",
+                "Optimized"
+            ],
+            "links": {
+                "github": "https://github.com/ak2711474",
+                "demo": "#"
+            },
+            "featured": false
+        }
+    ],
+    "contact": {
+        "headline": "Ready to Scale?",
+        "subtext": "I am currently open to backend engineering roles (Remote or Relocation). Let's discuss how I can contribute to your team's engineering goals.",
+        "cta": "Get in Touch"
+    }
+}
