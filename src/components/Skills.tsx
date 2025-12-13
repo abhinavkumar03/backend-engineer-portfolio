@@ -5,8 +5,14 @@ import * as Icons from "lucide-react";
 import portfolioData from "@/data/portfolio.json";
 import type { LucideIcon } from "lucide-react";
 
+type IconName = keyof typeof Icons;
+
 export default function Skills() {
     const { skills } = portfolioData;
+
+    const getIcon = (name: string): LucideIcon => {
+        return (Icons[name as IconName] as LucideIcon) || Icons.Terminal;
+    };
 
     return (
         <section className="py-24 bg-background relative">
@@ -23,9 +29,7 @@ export default function Skills() {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                     {skills.map((group, index) => {
-                        const CategoryIcon =
-                            (Icons as Record<string, LucideIcon>)[group.icon] ||
-                            Icons.Terminal;
+                        const CategoryIcon = getIcon(group.icon);
 
                         return (
                             <motion.div
@@ -50,9 +54,7 @@ export default function Skills() {
                                 {/* Skills */}
                                 <ul className="flex flex-wrap gap-2">
                                     {group.items.map((item) => {
-                                        const SkillIcon =
-                                            (Icons as Record<string, LucideIcon>)[item.icon] ||
-                                            Icons.Terminal;
+                                        const SkillIcon = getIcon(item.icon);
 
                                         return (
                                             <motion.li
