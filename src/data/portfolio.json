@@ -336,24 +336,26 @@
             "featured": false
         },
         {
-            "title": "Distributed File System",
-            "description": "A scalable and fault-tolerant distributed file system designed to store, manage, and serve very large files across a cluster of nodes. The system uses chunk-based storage, coordinated metadata management, and data replication to ensure high availability, durability, and efficient large-file access.",
+            "title": "StreamStack : AI-Powered Movie Streaming Platform",
+            "description": "A production-ready full-stack movie streaming system with a scalable Golang backend, modern React frontend, MongoDB data layer, and AI-powered search and recommendations using OpenAI and LangChainGo.",
             "tech": [
-                "Go",
-                "Distributed Systems",
-                "Chunk-based Storage",
-                "Replication",
-                "Fault Tolerance",
-                "Cluster Architecture"
+                "Go (Golang)",
+                "React",
+                "MongoDB",
+                "OpenAI API",
+                "LangChainGo",
+                "REST API",
+                "JWT Authentication",
+                "Clean Architecture"
             ],
             "stats": [
-                "Supports large files via fixed-size chunking",
-                "Horizontally scalable storage nodes",
-                "Replication-based fault tolerance",
-                "Centralized or coordinated metadata management"
+                "AI-Powered Search",
+                "Scalable Backend",
+                "Clean Architecture",
+                "Production-Ready"
             ],
             "links": {
-                "github": "https://github.com/abhinavkumar03/distributed-filesystem",
+                "github": "https://github.com/abhinavkumar03/stream-stack",
                 "demo": ""
             },
             "featured": true
