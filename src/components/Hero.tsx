@@ -27,7 +27,7 @@ export default function Hero() {
                         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight text-white max-w-4xl">
                             {hero.headline}
                         </h1>
-                        <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
+                        <p className="text-lg md:text-xl font-normal tracking-normal text-muted-foreground max-w-2xl mx-auto leading-relaxed">
                             {hero.subtext}
                         </p>
                     </motion.div>
