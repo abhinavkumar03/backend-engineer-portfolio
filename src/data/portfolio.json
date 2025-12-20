@@ -4,10 +4,10 @@
         "role": "Backend Software Engineer",
         "email": "ak2711474@gmail.com",
         "location": "Gurgaon, India",
-        "resumeUrl": "/resume.pdf",
+        "resumeUrl": "/resume.png",
         "social": {
-            "github": "https://github.com/ak2711474",
-            "linkedin": "https://linkedin.com/in/abhinav-kumar-2711474"
+            "github": "https://github.com/abhinavkumar03",
+            "linkedin": "https://www.linkedin.com/in/abhinavkumar03/"
         }
     },
     "hero": {
@@ -251,6 +251,29 @@
     ],
     "projects": [
         {
+            "title": "Distributed File System",
+            "description": "A scalable and fault-tolerant distributed file system designed to store, manage, and serve very large files across a cluster of nodes. The system uses chunk-based storage, coordinated metadata management, and data replication to ensure high availability, durability, and efficient large-file access.",
+            "tech": [
+                "Go",
+                "Distributed Systems",
+                "Chunk-based Storage",
+                "Replication",
+                "Fault Tolerance",
+                "Cluster Architecture"
+            ],
+            "stats": [
+                "Supports large files via fixed-size chunking",
+                "Horizontally scalable storage nodes",
+                "Replication-based fault tolerance",
+                "Centralized or coordinated metadata management"
+            ],
+            "links": {
+                "github": "https://github.com/abhinavkumar03/distributed-filesystem",
+                "demo": ""
+            },
+            "featured": true
+        },
+        {
             "title": "Real-Time Chat Application",
             "description": "Architected a multi-room chat system with < 300ms latency using WebSocket pub/sub. Implemented back-pressure controls and message durability.",
             "tech": [
@@ -266,10 +289,10 @@
                 "Dockerized"
             ],
             "links": {
-                "github": "https://github.com/ak2711474",
-                "demo": "#"
+                "github": "https://github.com/abhinavkumar03/chat-app",
+                "demo": "chat-frontend-abi2.onrender.com/chat"
             },
-            "featured": true
+            "featured": false
         },
         {
             "title": "CRM Automation System",
@@ -307,8 +330,53 @@
                 "Optimized"
             ],
             "links": {
-                "github": "https://github.com/ak2711474",
-                "demo": "#"
+                "github": "https://github.com/abhinavkumar03/Full_Stack_Ecommerce",
+                "demo": "trendyproducts.onrender.com/"
+            },
+            "featured": false
+        },
+        {
+            "title": "Distributed File System",
+            "description": "A scalable and fault-tolerant distributed file system designed to store, manage, and serve very large files across a cluster of nodes. The system uses chunk-based storage, coordinated metadata management, and data replication to ensure high availability, durability, and efficient large-file access.",
+            "tech": [
+                "Go",
+                "Distributed Systems",
+                "Chunk-based Storage",
+                "Replication",
+                "Fault Tolerance",
+                "Cluster Architecture"
+            ],
+            "stats": [
+                "Supports large files via fixed-size chunking",
+                "Horizontally scalable storage nodes",
+                "Replication-based fault tolerance",
+                "Centralized or coordinated metadata management"
+            ],
+            "links": {
+                "github": "https://github.com/abhinavkumar03/distributed-filesystem",
+                "demo": ""
+            },
+            "featured": true
+        },
+        {
+            "title": "Social Media Platform : Memories",
+            "description": "A MERN-based social media application with secure authentication and core post management features.",
+            "tech": [
+                "React",
+                "Node.js",
+                "Express.js",
+                "MongoDB",
+                "JWT Authentication",
+                "REST API"
+            ],
+            "stats": [
+                "REST APIs",
+                "JWT Auth",
+                "Full-Stack"
+            ],
+            "links": {
+                "github": "https://github.com/abhinavkumar03/memories",
+                "demo": "https://memoriesabhinavkumar03.netlify.app"
             },
             "featured": false
         }

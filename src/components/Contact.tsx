@@ -21,7 +21,7 @@ export default function Contact() {
                         <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-white">
                             {contact.headline}
                         </h2>
-                        <p className="text-muted-foreground max-w-xl mx-auto">
+                        <p className="font-normal tracking-normal text-muted-foreground max-w-xl mx-auto">
                             {contact.subtext}
                         </p>
                     </motion.div>
@@ -54,7 +54,7 @@ export default function Contact() {
                     </motion.div>
 
                     <div className="pt-16 text-sm text-muted-foreground">
-                        <p>© {new Date().getFullYear()} {personal.name}. Built with Next.js, Tailwind & Three.js.</p>
+                        <p>© {new Date().getFullYear()} {personal.name}</p>
                     </div>
                 </div>
             </div>
