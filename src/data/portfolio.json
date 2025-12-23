@@ -12,7 +12,7 @@
     },
     "hero": {
         "headline": "Backend Software Engineer",
-        "subtext": "I build scalable backend systems, APIs, and distributed services with Java & Spring Boot — optimized for performance, reliability, and real-world scale.",
+        "subtext": "I build scalable backend systems, APIs, and distributed services with Python, Go, Java & NodeJS — optimized for performance, reliability, and real-world.",
         "ctaPrimary": "View Projects",
         "ctaSecondary": "Download Resume"
     },
