@@ -18,194 +18,188 @@
     },
     "skills": [
         {
-            "category": "Go & Python Core",
-            "icon": "Code2",
+            "category": "Core Backend Engineering",
+            "icon": "Server",
             "items": [
                 {
-                    "name": "Go (Golang)",
-                    "icon": "Code2"
+                    "name": "Production REST API Design",
+                    "icon": "Link"
                 },
                 {
-                    "name": "Goroutines & Channels",
-                    "icon": "Cpu"
+                    "name": "Authentication & Authorization (JWT, RBAC)",
+                    "icon": "Lock"
                 },
                 {
-                    "name": "Context & Cancellation",
-                    "icon": "Activity"
-                },
-                {
-                    "name": "Go Profiling (pprof)",
-                    "icon": "Activity"
-                },
-                {
-                    "name": "gRPC & Protobuf",
-                    "icon": "MessageSquare"
-                },
-                {
-                    "name": "Python 3.10+",
-                    "icon": "Code2"
-                },
-                {
-                    "name": "Asyncio & Async APIs",
-                    "icon": "Cpu"
-                },
-                {
-                    "name": "Type Hints & mypy",
-                    "icon": "CheckCircle"
-                },
-                {
-                    "name": "FastAPI",
-                    "icon": "Server"
-                }
-            ]
-        },
-        {
-            "category": "Backend Architecture",
-            "icon": "Layers",
-            "items": [
-                {
-                    "name": "REST API Design",
-                    "icon": "GitBranch"
-                },
-                {
-                    "name": "JWT / OAuth2",
-                    "icon": "Shield"
-                },
-                {
-                    "name": "Pagination & Filtering",
-                    "icon": "List"
-                },
-                {
-                    "name": "Rate Limiting",
-                    "icon": "Gauge"
-                },
-                {
-                    "name": "Microservices",
-                    "icon": "Boxes"
-                },
-                {
-                    "name": "Event-Driven Architecture",
-                    "icon": "Activity"
-                },
-                {
-                    "name": "Circuit Breakers",
-                    "icon": "Zap"
-                }
-            ]
-        },
-        {
-            "category": "Databases & Streaming",
-            "icon": "Database",
-            "items": [
-                {
-                    "name": "PostgreSQL",
-                    "icon": "Database"
-                },
-                {
-                    "name": "Query Optimization",
-                    "icon": "Cpu"
-                },
-                {
-                    "name": "Transactions & Isolation",
+                    "name": "Middleware & Request Lifecycle Patterns",
                     "icon": "Layers"
                 },
                 {
-                    "name": "Redis (Caching)",
-                    "icon": "Activity"
+                    "name": "Clean Architecture & Service Boundaries",
+                    "icon": "Home"
                 },
                 {
-                    "name": "MongoDB",
-                    "icon": "Database"
-                },
-                {
-                    "name": "Apache Kafka",
-                    "icon": "MessageSquare"
-                },
-                {
-                    "name": "Elasticsearch",
-                    "icon": "Search"
+                    "name": "Structured Error Handling & Logging",
+                    "icon": "AlertCircle"
                 }
             ]
         },
         {
-            "category": "Cloud & DevOps",
-            "icon": "Cloud",
+            "category": "System Design & Scalability",
+            "icon": "Cpu",
             "items": [
                 {
-                    "name": "AWS (EC2, S3, RDS)",
-                    "icon": "Cloud"
-                },
-                {
-                    "name": "Docker",
-                    "icon": "Container"
-                },
-                {
-                    "name": "Kubernetes",
-                    "icon": "Cpu"
-                },
-                {
-                    "name": "Terraform",
-                    "icon": "Wrench"
-                },
-                {
-                    "name": "CI/CD (GitHub Actions)",
-                    "icon": "GitBranch"
-                },
-                {
-                    "name": "Linux",
-                    "icon": "Terminal"
-                }
-            ]
-        },
-        {
-            "category": "Observability & SRE",
-            "icon": "Activity",
-            "items": [
-                {
-                    "name": "Prometheus",
-                    "icon": "Activity"
-                },
-                {
-                    "name": "Grafana",
-                    "icon": "BarChart"
-                },
-                {
-                    "name": "OpenTelemetry",
-                    "icon": "Radar"
-                },
-                {
-                    "name": "Structured Logging",
-                    "icon": "FileText"
-                },
-                {
-                    "name": "SLIs / SLOs",
-                    "icon": "Gauge"
-                }
-            ]
-        },
-        {
-            "category": "System Design & Security",
-            "icon": "Shield",
-            "items": [
-                {
-                    "name": "Scalability & Load Balancing",
+                    "name": "Scalable Backend System Design",
                     "icon": "TrendingUp"
                 },
                 {
-                    "name": "Caching Strategies",
-                    "icon": "Zap"
+                    "name": "Load Balancing & High Availability",
+                    "icon": "Shuffle"
                 },
                 {
-                    "name": "Graceful Shutdowns",
-                    "icon": "Power"
+                    "name": "Caching Strategies with Redis",
+                    "icon": "Database"
                 },
                 {
-                    "name": "OWASP Top 10",
+                    "name": "Rate Limiting & Abuse Protection",
+                    "icon": "Timer"
+                },
+                {
+                    "name": "Microservices vs Monolith Architecture",
+                    "icon": "GitBranch"
+                },
+                {
+                    "name": "Event-Driven System Design",
+                    "icon": "Activity"
+                }
+            ]
+        },
+        {
+            "category": "Database & Performance Engineering",
+            "icon": "Storage",
+            "items": [
+                {
+                    "name": "PostgreSQL & SQL Optimization",
+                    "icon": "Table"
+                },
+                {
+                    "name": "Indexes, Joins & Query Tuning",
+                    "icon": "Search"
+                },
+                {
+                    "name": "Transactions & Isolation Levels",
+                    "icon": "Repeat"
+                },
+                {
+                    "name": "NoSQL Systems (MongoDB, DynamoDB Concepts)",
+                    "icon": "Archive"
+                },
+                {
+                    "name": "Backend Performance & Latency Optimization",
+                    "icon": "Rocket"
+                }
+            ]
+        },
+        {
+            "category": "Distributed Systems & Messaging",
+            "icon": "Network",
+            "items": [
+                {
+                    "name": "Apache Kafka & Streaming Pipelines",
+                    "icon": "Send"
+                },
+                {
+                    "name": "RabbitMQ & Job Queue Systems",
+                    "icon": "Inbox"
+                },
+                {
+                    "name": "Pub/Sub Communication Patterns",
+                    "icon": "Rss"
+                },
+                {
+                    "name": "Event Sourcing & Reliable Delivery",
+                    "icon": "Clock"
+                },
+                {
+                    "name": "Building Event-Driven Backends",
+                    "icon": "Workflow"
+                }
+            ]
+        },
+        {
+            "category": "Cloud Infrastructure & DevOps",
+            "icon": "Cloud",
+            "items": [
+                {
+                    "name": "Dockerized Production Deployments",
+                    "icon": "Box"
+                },
+                {
+                    "name": "Kubernetes & Service Orchestration",
+                    "icon": "Grid"
+                },
+                {
+                    "name": "CI/CD Pipelines (GitHub Actions)",
+                    "icon": "GitPullRequest"
+                },
+                {
+                    "name": "AWS Cloud Foundations (EC2, S3, RDS)",
+                    "icon": "Cloud"
+                },
+                {
+                    "name": "Deploying Scalable Go Services",
+                    "icon": "Upload"
+                }
+            ]
+        },
+        {
+            "category": "Advanced Go Engineering",
+            "icon": "Code2",
+            "items": [
+                {
+                    "name": "Concurrency Patterns (Goroutines, Channels)",
+                    "icon": "Activity"
+                },
+                {
+                    "name": "Context Cancellation & Timeouts",
+                    "icon": "Clock"
+                },
+                {
+                    "name": "Memory Optimization & Profiling (pprof)",
+                    "icon": "BarChart"
+                },
+                {
+                    "name": "gRPC & High-Performance Services",
+                    "icon": "MessageSquare"
+                },
+                {
+                    "name": "Idiomatic Go for Production Systems",
+                    "icon": "Check"
+                }
+            ]
+        },
+        {
+            "category": "Production Readiness & Observability",
+            "icon": "Gauge",
+            "items": [
+                {
+                    "name": "Monitoring with Prometheus & Grafana",
+                    "icon": "BarChart"
+                },
+                {
+                    "name": "Distributed Tracing (OpenTelemetry)",
+                    "icon": "Radar"
+                },
+                {
+                    "name": "SLIs, SLOs & Reliability Engineering",
+                    "icon": "Gauge"
+                },
+                {
+                    "name": "Secure Backend Practices (OWASP Top 10)",
                     "icon": "ShieldAlert"
                 },
                 {
-                    "name": "RBAC & API Security",
-                    "icon": "Lock"
+                    "name": "Building Systems CEOs Can Trust",
+                    "icon": "Shield"
                 }
             ]
         }
