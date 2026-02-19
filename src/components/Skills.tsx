@@ -16,7 +16,7 @@ export default function Skills() {
 
     return (
         <section className="py-24 bg-background relative">
-            <div className="container px-4 md:px-6">
+            <div className="container-xl px-4 md:px-6">
                 <div className="mb-12 max-w-2xl">
                     <h2 className="text-3xl font-bold tracking-tight text-white mb-4">
                         Technical Arsenal
