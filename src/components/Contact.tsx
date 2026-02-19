@@ -10,7 +10,7 @@ export default function Contact() {
 
     return (
         <section className="py-24 border-t border-white/10 bg-background">
-            <div className="container px-4 md:px-6">
+            <div className="container-xl px-4 md:px-6">
                 <div className="flex flex-col items-center text-center space-y-8">
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
